@@ -54,7 +54,9 @@
 
 ## About The Project
 
-[![ArcGIS homepage Screen Shot][product-screenshot]](http://swecono.maps.arcgis.com/home/index.html)
+<p align="center">
+  <img width="800" height="100%" src="images/Homepage_monitor.gif">
+</p>
 <p align="center">
 <a href="https://jeroenimo95.github.io/ArcGIS%20Homepage/example/index.html">View Demo</a>
 </p>
