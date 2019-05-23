@@ -35,7 +35,6 @@
     ·
     <a href="https://jeroenimo95.github.io/ArcGIS%20Homepage/issues">Request Feature</a>
   </p>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -73,7 +72,7 @@ Here's why:
 
 Of course, no one template will serve all homepages since your needs may be different. But this template would be a good starting point from which you can build your own beautiful homepage.
 
-During the internship at Sweco Bergen, I was tasked to look into a simple way to restyle the ArcGIS online homepage. I did some research into the possibilities and came across a very useful blogpost on [GeoNet](https://community.esri.com/blogs/baldy/2017/07/24/beautify-that-homepage-creating-a-unique-look-and-feel). The customized files that are given in this post are the basis on which I build the first version of the homepage. The final customized files can be found in the [src](https://github.com/Jeroenimo95/Jeroenimo95.github.io/tree/master/ArcGIS%20Homepage/src) folder.
+During the internship at Sweco Bergen, I was tasked to look into a simple way to restyle the ArcGIS online homepage. I did some research into the possibilities and came across a very useful blogpost on [GeoNet](https://community.esri.com/blogs/baldy/2017/07/24/beautify-that-homepage-creating-a-unique-look-and-feel). The customized files that are given in this post are the basis on which I build the first version of the homepage. The final customized files can be found in the [src][src-folder] folder.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
@@ -164,7 +163,7 @@ There are three important parts of the default ArcGIS online homepage. As in the
 
 #### Change Logo
 
-In the code of the [Banner.html](https://github.com/Jeroenimo95/Jeroenimo95.github.io/tree/master/ArcGIS%20Homepage/src) file, the last two elements you will see in the _style_ section are the #topBanner and #resback. For both of these, you can see that we are simply applying a background image to the DIV and then placing the element. #topBanner is placing the header banner image and #resBack is placing the background image at a fixed position.  
+In the code of the [Banner.html][banner-html] file, the last two elements you will see in the _style_ section are the #topBanner and #resback. For both of these, you can see that we are simply applying a background image to the DIV and then placing the element. #topBanner is placing the header banner image and #resBack is placing the background image at a fixed position.  
 
 1. Make sure new logo image follows the give size restrictions and storage location
 2. Upload the image to a folder and share it with the [_Homepage_](http://swecono.maps.arcgis.com/home/group.html?id=c40bf2722c1549739f684c611d93a341#overview) Group
@@ -222,7 +221,7 @@ For the background, there are already four different default Sweco background in
 In future updates, the purpose of the buttons might change. Keep the [size and proportion limitaztions](#prerequisites) of the button images in mind when making changes.
 
 1. Make sure new button image follows the size restrictions and storage location
-2. Work with the [html file](https://github.com/Jeroenimo95/Jeroenimo95.github.io/tree/master/ArcGIS%20Homepage/src/OrganizationDescription.html) instead of changing values in the ArcGIS settings editor, which doesn't maintain the markup when saved
+2. Work with the [OrganizationDescription.html][organization-html] file instead of changing values in the ArcGIS settings editor, which doesn't maintain the markup when saved
 3. Upload or update a image on ArcGIS online, share it with the [_Homepage_](http://swecono.maps.arcgis.com/home/group.html?id=c40bf2722c1549739f684c611d93a341#overview) Group Group, copy share link and (re)place it in a (new) <img src="http://> link.
 ```html
 <!-- 	This section holds the links to Sweco Norge AS specific content on sweco.no
@@ -302,6 +301,10 @@ Jeroen Stegeman - jeroen.stegeman@sweco.no
 [build-shield]: https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square
 [contributors-shield]: https://img.shields.io/badge/contributors-1-orange.svg?style=flat-square
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
+[src-folder]: src
+[example-folder]: example
+[banner-html]: src/Banner.html
+[organization-html]: src/OrganizationDescription.html
 [product-screenshot]: images/screenshot.png
 [default-screenshot]: images/home_default.jpg
 [sections-screenshot]: images/home_default_sections.jpg
