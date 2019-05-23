@@ -56,7 +56,7 @@
 
 [![ArcGIS homepage Screen Shot][product-screenshot]](http://swecono.maps.arcgis.com/home/index.html)
 <p align="center">
-<a href="https://github.com/Jeroenimo95/ArcGIS-Homepage/example/index.html">View Demo</a>
+<a href="https://jeroenimo95.github.io/ArcGIS%20Homepage/example/index.html">View Demo</a>
 </p>
 
 ArcGIS online homepage is by default just about functional, but that's it. The homepage needs to be useful for yourself, your users and new visitors. If this is the case the default homepage could be a little confusing for some. This custom layout contributes to those how need more than the default homepage.
