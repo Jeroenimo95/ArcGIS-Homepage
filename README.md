@@ -302,7 +302,7 @@ Jeroen Stegeman - jeroen.stegeman@sweco.no
 [example-folder]: example
 [banner-html]: src/Banner.html
 [organization-html]: src/OrganizationDescription.html
-[product-screenshot]: images/Homepage_monitor_large.gif
+[product-screenshot]: images/Homepage_monitor.gif
 [default-screenshot]: images/home_default.jpg
 [sections-screenshot]: images/home_default_sections.jpg
 [share-screenshot]: images/link_arcgis.jpg
